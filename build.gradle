@@ -33,10 +33,3 @@ jar {
         attributes 'Main-Class': 'au.com.emc.cubing.stackmat.Main'
     }
 }
-
-// Load/install the wrapper. This is done once and the result is
-// committed to version control. You do not need to call this.
-task wrapper(type: Wrapper) {
-    gradleVersion = '3.5'
-}
-
